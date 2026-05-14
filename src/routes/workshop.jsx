@@ -63,7 +63,7 @@ function WorkshopPage() {
           alt="Suzuki workshop"
           className="absolute inset-0 size-full object-cover opacity-25"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background" />
+        <div className="absolute inset-0 bg-linear-to-b from-background via-background/80 to-background" />
         <div className="relative max-w-7xl mx-auto">
           <SectionHeading
             eyebrow="3S Authorized Service"
@@ -97,7 +97,7 @@ function WorkshopPage() {
       </section>
 
       <section className="px-6 lg:px-8 py-20 max-w-7xl mx-auto">
-        <div className="rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/15 via-background to-background p-10 lg:p-16 text-center">
+        <div className="rounded-3xl border border-primary/30 bg-linear-to-br from-primary/15 via-background to-background p-10 lg:p-16 text-center">
           <h3 className="font-display text-4xl md:text-5xl uppercase tracking-tighter mb-4">
             Book your <span className="text-primary">service</span>
           </h3>

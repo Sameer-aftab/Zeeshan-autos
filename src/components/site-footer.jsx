@@ -70,7 +70,9 @@ export function SiteFooter() {
       <div className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[10px] font-medium uppercase tracking-[0.22em] text-muted-foreground">
           <span>© {new Date().getFullYear()} Zeeshan Autos. All rights reserved.</span>
-          <span className="text-primary">Way of Life.</span>
+          <span>
+            Website by <span className="text-primary">Indus Technetronic Pvt. LTD</span>
+          </span>
         </div>
       </div>
     </footer>

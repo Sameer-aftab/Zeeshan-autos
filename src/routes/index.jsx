@@ -74,8 +74,8 @@ function HomePage() {
     <div>
       {/* HERO */}
       <section className="relative min-h-[92vh] flex flex-col justify-end pb-20 px-6 lg:px-8 overflow-hidden">
-        <div className="absolute top-1/4 -right-1/4 size-[800px] bg-primary/15 rounded-full blur-[160px] pointer-events-none" />
-        <div className="absolute -bottom-1/4 -left-1/4 size-[600px] bg-accent/10 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute top-1/4 -right-1/4 size-200 bg-primary/15 rounded-full blur-[160px] pointer-events-none" />
+        <div className="absolute -bottom-1/4 -left-1/4 size-150 bg-accent/10 rounded-full blur-[120px] pointer-events-none" />
 
         <img
           src={heroImg}
@@ -84,7 +84,7 @@ function HomePage() {
           height={1080}
           className="absolute inset-0 size-full object-cover opacity-40 mix-blend-luminosity"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/30" />
+        <div className="absolute inset-0 bg-linear-to-t from-background via-background/60 to-background/30" />
 
         <div className="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-12 gap-6 items-end">
           <div className="col-span-12 lg:col-span-7 animate-reveal">
@@ -173,7 +173,7 @@ function HomePage() {
             <Link
               key={s.n}
               to={s.to}
-              className="bg-background p-10 flex flex-col min-h-[320px] group transition-all hover:bg-primary/5"
+              className="bg-background p-10 flex flex-col min-h-80 group transition-all hover:bg-primary/5"
             >
               <span className="font-mono text-xs text-primary">{s.n}</span>
               <h3 className="text-3xl font-display uppercase tracking-tight mt-4">{s.title}</h3>
@@ -202,7 +202,7 @@ function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featured.map((f) => (
               <div key={f.name} className="group">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-surface border border-border mb-5">
+                <div className="aspect-4/3 rounded-2xl overflow-hidden bg-surface border border-border mb-5">
                   <img
                     src={f.img}
                     alt={f.name}
@@ -226,14 +226,14 @@ function HomePage() {
       {/* WORKSHOP + EXCHANGE */}
       <section className="px-6 lg:px-8 py-32 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-6">
-          <div className="relative rounded-3xl overflow-hidden border border-border min-h-[440px] group">
+          <div className="relative rounded-3xl overflow-hidden border border-border min-h-110 group">
             <img
               src={workshopImg}
               alt="Suzuki workshop"
               loading="lazy"
               className="absolute inset-0 size-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-background via-background/60 to-transparent" />
             <div className="relative z-10 h-full p-10 flex flex-col justify-end">
               <Wrench className="size-8 text-primary mb-6" />
               <h3 className="font-display text-4xl uppercase tracking-tight mb-3">3S Workshop</h3>
@@ -250,7 +250,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="relative rounded-3xl overflow-hidden border border-primary/30 bg-gradient-to-br from-primary/20 via-background to-background min-h-[440px] p-10 flex flex-col justify-end">
+          <div className="relative rounded-3xl overflow-hidden border border-primary/30 bg-linear-to-br from-primary/20 via-background to-background min-h-110 p-10 flex flex-col justify-end">
             <RefreshCw className="size-8 text-accent mb-6" />
             <h3 className="font-display text-4xl uppercase tracking-tight mb-3">
               Exchange Program
@@ -321,7 +321,7 @@ function HomePage() {
           </div>
           <div className="relative">
             <div className="absolute -inset-10 bg-primary/15 blur-[100px] -z-10" />
-            <div className="aspect-[4/5] rounded-3xl overflow-hidden border border-border">
+            <div className="aspect-4/5 rounded-3xl overflow-hidden border border-border">
               <img
                 src={partsImg}
                 alt="Genuine Suzuki parts"
@@ -339,7 +339,7 @@ function HomePage() {
           Visit our <span className="text-primary">showroom</span>
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto mb-10">
-          Main Auto-Bhan Road, Latifabad, Hyderabad, Sindh. Open 9 AM — 8 PM, all week.
+          Main Auto-Bhan Road, Latifabad, Hyderabad, Sindh. Open 9 AM — 6 PM, Sat – Thu.
         </p>
         <Link
           to="https://maps.app.goo.gl/CfpVKxHnkHHvRGFh9"
