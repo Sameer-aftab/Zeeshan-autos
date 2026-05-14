@@ -57,7 +57,7 @@ function PartsPage() {
           alt="Genuine Suzuki parts"
           className="absolute inset-0 size-full object-cover opacity-25"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background" />
+        <div className="absolute inset-0 bg-linear-to-b from-background via-background/80 to-background" />
         <div className="relative max-w-7xl mx-auto">
           <SectionHeading
             eyebrow="Genuine SGP Parts"

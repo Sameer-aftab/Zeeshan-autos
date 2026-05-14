@@ -98,7 +98,7 @@ function ShowroomPage() {
               key={c.name}
               className="group rounded-3xl overflow-hidden border border-border bg-surface/40 hover:border-primary/40 transition-all"
             >
-              <div className="aspect-[4/3] bg-background overflow-hidden">
+              <div className="aspect-4/3 bg-background overflow-hidden">
                 <img
                   src={c.img}
                   alt={c.name}

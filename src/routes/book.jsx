@@ -148,7 +148,7 @@ function BookPage() {
   if (submitted) {
     return (
       <div className="px-6 lg:px-8 pt-20 pb-32 max-w-3xl mx-auto">
-        <div className="rounded-3xl border border-primary/30 bg-gradient-to-br from-primary/15 via-background to-background p-10 lg:p-14 text-center">
+        <div className="rounded-3xl border border-primary/30 bg-linear-to-br from-primary/15 via-background to-background p-10 lg:p-14 text-center">
           <div className="size-14 rounded-full bg-primary/15 grid place-items-center text-primary mx-auto mb-6">
             <CheckCircle2 className="size-7" />
           </div>
@@ -179,7 +179,7 @@ function BookPage() {
             </div>
           </div>
           <p className="text-sm text-muted-foreground max-w-md mx-auto mb-8">
-            A service advisor will call you within 30 minutes (9 AM – 8 PM) to confirm your slot and
+            A service advisor will call you within 30 minutes (9 AM – 6 PM) to confirm your slot and
             answer any questions.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">

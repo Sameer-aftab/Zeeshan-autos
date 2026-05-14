@@ -22,7 +22,7 @@ const info = [
   },
   { icon: Phone, label: "Phone", value: "+92 22 263 4451" },
   { icon: MessageCircle, label: "WhatsApp", value: "+92 333 200 7000" },
-  { icon: Mail, label: "Email", value: "info@zeeshanautos.pk" },
+  { icon: Mail, label: "Email", value: "info@zeeshanautos.net" },
   { icon: Clock, label: "Hours", value: "Mon — Sun · 9:00 AM — 8:00 PM" },
 ];
 function ContactPage() {
